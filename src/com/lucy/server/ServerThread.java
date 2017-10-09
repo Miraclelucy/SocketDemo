@@ -79,7 +79,7 @@ public class ServerThread  extends Thread{
 			BufferedOutputStream  bos=null;
 			try {
 				 fos = new FileOutputStream(file);  
-				 bos = new BufferedOutputStream(fos); // 缓冲输出流
+				 bos = new BufferedOutputStream(fos); // 缓冲输出流 
 		         bos.write(tffile.getFilebyte());
 				
 			} catch (FileNotFoundException e) {
