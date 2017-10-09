@@ -14,7 +14,7 @@ import java.util.Arrays;
  * 基于TCP连接的socket通信(服务端)
  */
 public class Server {
-	//1 创建ServerSocket对象
+	//1 创建ServerSocket对象 
     public static void main(String[] args) throws IOException {
 		ServerSocket socket =new ServerSocket(9100);
 		System.out.println("我是服务端，正在等待");
