@@ -14,7 +14,7 @@ public class ServerThreadSimple  extends Thread{
 	}
 	public void run(){
 		
-		//2 通过accept对象监听端口，在接受到来自客户端的请求时，处于阻塞状态
+		//2 通过accept对象监听端口，在接受到来自客户端的请求时，处于阻塞状态 
 		//3 通过输入流接受来自客户端的请求
 		//4 通过输出流向客户端发送响应信息
 		//5 关闭资源信息
