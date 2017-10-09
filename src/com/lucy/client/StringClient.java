@@ -14,7 +14,7 @@ import java.net.Socket;
 public class StringClient {
     //1创建Socket对象
 	//2通过输出流 向服务器端发送数据
-	//3通过输入流 接受服务器端发过来的响应
+	//3通过输入流 接受服务器端发过来的响应 
 	//4关闭相关的资源
 	public static void main(String[] args) throws IOException {
 		Socket socket=new Socket("localhost",9100);
